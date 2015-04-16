@@ -4,7 +4,7 @@ clear
 
 // move to the directory just above one with data
 
-cd "/Users/y_ushioda/Dropbox/RA"
+cd "/Users/y_ushioda/Desktop
 
 // make sure you put a copy of the first data here
 // use this data as master file
@@ -18,13 +18,13 @@ drop in 1/2
 
 // move to the directory with data
 
-cd "/Users/y_ushioda/Dropbox/RA/us_investment"
+cd "/Users/y_ushioda/Desktop/raw_data"
 
 save master, replace
 
 // create file list from which to collect data to combine
 
-local csvfiles: dir "/Users/y_ushioda/Dropbox/RA/us_investment" files "*.csv"
+local csvfiles: dir "/Users/y_ushioda/Desktop/raw_data" files "*.csv"
 
 // loop through file list
 

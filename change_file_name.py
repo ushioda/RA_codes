@@ -5,10 +5,10 @@ from os import rename
 from os import listdir
 from os import chdir
 
-chdir('/Users/y_ushioda/Dropbox/RA/us_creditcard')
-file = glob("*true.csv")
+chdir('/Users/y_ushioda/Dropbox/RA/raw_data')
+file = glob("*.csv")
 for fname in file:
-    rename(fname, fname.replace("true", ""))
+    rename(fname, fname.replace("li", ""))
     print fname
     
 chdir('/Users/y_ushioda/Desktop/RA_codes')
