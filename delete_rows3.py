@@ -10,7 +10,7 @@ from os import rename
 from os import listdir
 from os import chdir
 
-chdir('/Users/y_ushioda/Dropbox/RA')
+chdir('/Users/y_ushioda/Desktop')
 
 file = glob('copy.csv')
 for fname in file:
